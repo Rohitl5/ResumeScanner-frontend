@@ -1,0 +1,107 @@
+.resumeform{
+    /* width:50vh; */
+   min-height:100vh;
+    align-items: center;
+    margin:auto;
+    /* margin-top: 20px; */
+    padding:10px;
+    border-radius: 8px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    background-image: linear-gradient(#2A9B5D, #578FC7,#EDD353);
+
+
+}
+
+#head{
+    color:rgb(255, 246, 119);
+ 
+    padding:10px;
+    margin:auto;
+    text-align: center;
+    font-size:50px;
+
+    
+}
+
+.classy{
+      
+  background-color:rgba(10, 19, 68, 0.466);
+  color: whitesmoke;
+  font-size:30px;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 10px;
+  box-shadow: 10px 10px #57584d;
+  margin: 30px auto; /* Center and add space */
+  padding: 20px;
+
+  /* Width control */
+  width: 90%;
+  max-width: 500px;  /* Keep it neat on large screens */
+  box-sizing: border-box;
+
+  /* Responsive layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+label{
+    padding:2px;
+}
+input,textarea{
+    border-radius: 2px;
+    box-shadow: 3px 3px #070a2ea8;
+    width:60%;
+    height:4vh;
+    padding:2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    font-size:large;
+    padding-left: 10px;
+}
+textarea{
+    color:crimson;
+    height:8vh;
+}
+#submit{
+    color:rgb(22, 8, 2);
+    background-color:coral;
+    border-radius: 2px;
+    box-shadow: 4px 4px #070a2ea8;;
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    padding:10px;
+    margin-top: 5px;
+    justify-content: center;
+    align-content: center;
+}
+
+.loader-container{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.spinner{
+    border:6px solid #94ec7e;
+    border-top: 6px solid #075007a1;
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+    animation: spin 0.8s linear infinite;
+    margin-bottom:10px;
+}
+
+@keyframes spin{
+    0%{transform : rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+@media screen {
+    
+}
